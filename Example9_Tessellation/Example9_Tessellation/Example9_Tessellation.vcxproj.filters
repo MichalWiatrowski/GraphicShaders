@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Tessellation">
+      <UniqueIdentifier>{4a9aa9a6-464c-4e6c-bb95-8e828ce21643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Maybe">
+      <UniqueIdentifier>{108f6bb8-b52b-47f8-841c-82c868ed6ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shadows">
+      <UniqueIdentifier>{4514ef64-916f-4251-bcff-fd2b99df5dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Depth">
+      <UniqueIdentifier>{3770e341-0edd-4ccc-84b1-6de64074f7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Billboard">
+      <UniqueIdentifier>{6e732fc9-7063-4845-b388-390255c36eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DepthShaders">
+      <UniqueIdentifier>{0548e658-8d69-4432-82b7-5f7d942c6574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Custom Classes">
+      <UniqueIdentifier>{e4302366-9a7e-4ada-89ff-aef85baa5991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TBA">
+      <UniqueIdentifier>{47f83f96-35d5-4e81-b22a-cfb8607767c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TBA">
+      <UniqueIdentifier>{8a58f62f-03e3-4b8f-8c20-4f3127fba58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shadows">
+      <UniqueIdentifier>{e98fac7d-d1f3-41fc-a8ab-702af7fb4753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tessellation">
+      <UniqueIdentifier>{026b18f8-f04b-4d96-97c2-a4d285b4ce09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Billboard">
+      <UniqueIdentifier>{be804453-ad15-4188-b5cb-a1d9663d19ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Depth">
+      <UniqueIdentifier>{a15ffac3-c3ae-46ed-bd22-3761ca7527c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Custom Classes">
+      <UniqueIdentifier>{1ef0459f-b156-4282-9bad-979b9de1701e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tessellation">
+      <UniqueIdentifier>{57afe5dd-e0e6-46d9-8f8d-987f8a14f28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Billboard">
+      <UniqueIdentifier>{85e5fc62-37f2-4043-ab81-63718c857bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TBA">
+      <UniqueIdentifier>{573f047e-df45-4a06-9a83-868fb65f2a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shadows">
+      <UniqueIdentifier>{dd0592f9-5424-4e77-8403-8afdc4385232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\SFX GS">
+      <UniqueIdentifier>{720a0299-de58-47c2-a09f-62f9b1c585a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Post Processing">
+      <UniqueIdentifier>{243e3bfb-4d3b-4aa1-8527-1f22274d9bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{fb80d2da-f51a-427d-ac61-f7f29da07f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{b81257b5-01df-49b8-bb41-cb2373b4a137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Post Process">
+      <UniqueIdentifier>{19ba9200-ee7b-424a-a7e7-d052b2053c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Post Process">
+      <UniqueIdentifier>{ff7f5dee-bb60-482b-ab52-fd99efe47594}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthShader.cpp">
+      <Filter>Source Files\DepthShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthShaderGeo.cpp">
+      <Filter>Source Files\DepthShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="tessPlaneMesh.cpp">
+      <Filter>Source Files\Custom Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="tessQuadMesh.cpp">
+      <Filter>Source Files\Custom Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="NewPointMesh.cpp">
+      <Filter>Source Files\Custom Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowsExplosion.cpp">
+      <Filter>Source Files\Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowShader.cpp">
+      <Filter>Source Files\Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationShader.cpp">
+      <Filter>Source Files\Tessellation</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryShader.cpp">
+      <Filter>Source Files\Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="App1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="meshManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="lightsManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="postProcessShader.cpp">
+      <Filter>Source Files\Post Process</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthShader.h">
+      <Filter>Header Files\Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthShaderGeo.h">
+      <Filter>Header Files\Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="NewPointMesh.h">
+      <Filter>Header Files\Custom Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="tessPlaneMesh.h">
+      <Filter>Header Files\Custom Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="tessQuadMesh.h">
+      <Filter>Header Files\Custom Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationShader.h">
+      <Filter>Header Files\Tessellation</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryShader.h">
+      <Filter>Header Files\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowShader.h">
+      <Filter>Header Files\Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowsExplosion.h">
+      <Filter>Header Files\Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="meshManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="lightsManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="postProcessShader.h">
+      <Filter>Header Files\Post Process</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="tessellation_vs.hlsl">
+      <Filter>Resource Files\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellation_ps.hlsl">
+      <Filter>Resource Files\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellation_hs.hlsl">
+      <Filter>Resource Files\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellation_ds.hlsl">
+      <Filter>Resource Files\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellationSphere_ds.hlsl">
+      <Filter>Resource Files\Maybe</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellationSphere_hs.hlsl">
+      <Filter>Resource Files\Maybe</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_ps.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_vs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="shadow_vs.hlsl">
+      <Filter>Resource Files\Shadows</Filter>
+    </FxCompile>
+    <FxCompile Include="shadow_ps.hlsl">
+      <Filter>Resource Files\Shadows</Filter>
+    </FxCompile>
+    <FxCompile Include="billboard_gs.hlsl">
+      <Filter>Resource Files\Billboard</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_vs_test.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="shadowGeoShader_vs.hlsl">
+      <Filter>Resource Files\Shadows</Filter>
+    </FxCompile>
+    <FxCompile Include="triangle_vs.hlsl">
+      <Filter>Resource Files\TBA</Filter>
+    </FxCompile>
+    <FxCompile Include="triangle_ps.hlsl">
+      <Filter>Resource Files\TBA</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_vs.hlsl">
+      <Filter>Resource Files\TBA</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_ps.hlsl">
+      <Filter>Resource Files\TBA</Filter>
+    </FxCompile>
+    <FxCompile Include="explosionShadows_gs.hlsl">
+      <Filter>Resource Files\SFX GS</Filter>
+    </FxCompile>
+    <FxCompile Include="explosion_gs.hlsl">
+      <Filter>Resource Files\SFX GS</Filter>
+    </FxCompile>
+    <FxCompile Include="icosphere_gs.hlsl">
+      <Filter>Resource Files\TBA</Filter>
+    </FxCompile>
+    <FxCompile Include="billboard_vs.hlsl">
+      <Filter>Resource Files\Billboard</Filter>
+    </FxCompile>
+    <FxCompile Include="billboard_ps.hlsl">
+      <Filter>Resource Files\Billboard</Filter>
+    </FxCompile>
+    <FxCompile Include="postProcess_vs.hlsl">
+      <Filter>Resource Files\Post Processing</Filter>
+    </FxCompile>
+    <FxCompile Include="postProcess_ps.hlsl">
+      <Filter>Resource Files\Post Processing</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
